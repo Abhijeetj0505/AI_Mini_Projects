@@ -7,7 +7,7 @@ of a bank and their personal credit data to create a demographic centric model w
 leaving the bank. The data is fictional since datasets containing this kind of information is prohibited for public usage. In order to obtain
 this data we monitored these customers for the past 6 months and saw whether they exited or not (1 or 0). It should be noted that even though
 we chose to use this data in this specific manner we could use the very same data for checking either things like is customer should get a
- oan or not should the person be approved for credit or not. 
+loan or not should the person be approved for credit or not. 
 
 
 Some general info about the structure and the functionality of the ANN:
