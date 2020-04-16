@@ -26,7 +26,7 @@ Some general info about the structure and the functionality of the ANN:
 -	Tuned our hyperparameters with Grid Search. Anyone using the code can try different values as tuning parameters. 
 -	I chose to tune the batch seize, the number of epocks and the optimizer but that is subset to personal preference.
 
- ### Project 2 - Auto Encoders Recommender System
+ ### Project 2 - Auto Encoders Recommendation System
 
 This is a recommender system built based on the theory of "Stacked Auto Encoders". The system is built from scratch, the layers,
 the nodes and the functionality are manually coded. For the training of our SAE we use 100,000 ratings, but in the "data" folder 
@@ -48,7 +48,7 @@ functions insidei the full connections. Returns the vector of predicted ratings 
 * Used optimizer RMSprop (root mean squared)
 
 
-### Project 3 - Boltzmann Machine Recommender System
+### Project 3 - Boltzmann Machine Recommendation System
 
 This is a recommender system built based on the theory of "Restricted Boltzmann Machines". This system is built from scratch, the layers,the nodes and the functionality are manually coded. There are available libraries which someone can use to replicate a RBM though. For the training of our RBM we use 100,000 ratings, but in the "data" folder a set with 1,000,000 ratings is also provides in case someone wants to achieve better results. 
 
