@@ -2,7 +2,7 @@
 ## Various projects based on Supervised and Unsupervised Deep Learning algorithms
 
 This repo contains some of my AI projects. The structure of the Networks, such as the number of layers, the number of nodes in each layer,  the learning rate (where applicable) etc. were constructed in a simple way so the code can be used in simple systems too (Laptops without GPU).
-Furthemore, in the case of the Recommender Systems, I used some memory optimization so the program will use minimum computational power to execute.
+Furthemore, in the case of the Recommendation Systems, I used some memory optimization so the program will use minimum computational power to execute.
 
 **Note 1:** All of the projects, except the ANN one, can be subjected to parameter tuning through *Grid Search* and can be evaluated through *k-cross validation*. I did not apply these in all of the projects because of the computational power and time limitations. Nevertheless, the code-blueprint for executing the tuning and evaluation can be found in the *ANN project*. Feel free to copy and integrate it to the other projects too but keep in mind that it will require *a lot* of time in order to execute if your computational power is limited.
 
@@ -28,9 +28,9 @@ Some general info about the structure and the functionality of the ANN:
 
  ### Project 2 - Auto Encoders Recommendation System
 
-This is a recommender system built based on the theory of "Stacked Auto Encoders". The system is built from scratch, the layers,
+This is a recommendation system built based on the theory of "Stacked Auto Encoders". The system is built from scratch, the layers,
 the nodes and the functionality are manually coded. For the training of our SAE we use 100,000 ratings, but in the "data" folder 
-a set with 1,000,000 ratings is also provides in case someone wants to achieve better results. Compared to the RBM Recommender system,
+a set with 1,000,000 ratings is also provides in case someone wants to achieve better results. Compared to the RBM Recommendation system,
 this one also achieves powerful results but with a much simpler structure. The purpose is to predict a star-based (1-5) rating from
 the user based on his past ratings. 
 
@@ -50,7 +50,7 @@ functions insidei the full connections. Returns the vector of predicted ratings 
 
 ### Project 3 - Boltzmann Machine Recommendation System
 
-This is a recommender system built based on the theory of "Restricted Boltzmann Machines". This system is built from scratch, the layers,the nodes and the functionality are manually coded. There are available libraries which someone can use to replicate a RBM though. For the training of our RBM we use 100,000 ratings, but in the "data" folder a set with 1,000,000 ratings is also provides in case someone wants to achieve better results. 
+This is a recommendation system built based on the theory of "Restricted Boltzmann Machines". This system is built from scratch, the layers,the nodes and the functionality are manually coded. There are available libraries which someone can use to replicate a RBM though. For the training of our RBM we use 100,000 ratings, but in the "data" folder a set with 1,000,000 ratings is also provides in case someone wants to achieve better results. 
 
 Some general info about the code and the functionality:
 
