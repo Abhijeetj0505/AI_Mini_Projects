@@ -1,4 +1,4 @@
-# AI projects
+# AI mini projects
 ## Various projects based on Supervised and Unsupervised Deep Learning algorithms
 
 This repo contains some of my AI projects. The structure of the Networks, such as the number of layers, the number of nodes in each layer,  the learning rate (where applicable) etc. were constructed in a simple way so the code can be used in simple systems too (Laptops without GPU).
