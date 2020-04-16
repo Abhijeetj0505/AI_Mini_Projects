@@ -82,7 +82,7 @@ Some general info about the code and the functionality:
 *	The data contains the daily stock prices (20 days each month).
 *	Created a data structure with 60 timesteps and 1 output. More specifically for every day the RNN refers to the 60 previous ones
 	to train itself and predict the next day.
-*	Created 2 datasers: X_train which contains for each day the 60 previous ones and Y_train which contains the price of the next day
+*	Created 2 datasets: X_train which contains for each day the 60 previous ones and Y_train which contains the price of the next day
 	Implement this for every timestamp t, that is for every one of the days we have in our training dataset.
 *	Created a RNN with 4 layers and introduced some Dropout Regularization in each one to avoid overfitting
 
