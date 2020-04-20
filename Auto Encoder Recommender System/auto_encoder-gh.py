@@ -79,7 +79,7 @@ for epoch in range(1, nb_epoch + 1):
             loss = criterion(output, target)
             mean_corrector = nb_movies/float(torch.sum(target.data > 0) + 1e-10)
             loss.backward()                                                         # Define the direction to which the weights will be updated
-            train_loss += np.sqrt(loss.data[0]*mean_corrector)
+            train_loss += np.sqrt(loss.data.item()*mean_corrector)
             s += 1.
             optimizer.step()                                                        # Define the intensity of the updates that is the amount by which the weights will be updated
     print('epoch: '+str(epoch)+' loss: '+str(train_loss/s))
